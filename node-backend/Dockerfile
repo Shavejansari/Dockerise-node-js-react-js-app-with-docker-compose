@@ -3,7 +3,7 @@ FROM node:14
 EXPOSE 3001
 
 # Use latest version of npm
-RUN npm i npm@latest -g
+RUN npm install -g npm@latest
 
 COPY package.json package-lock.json* ./
 
