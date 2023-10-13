@@ -4,7 +4,7 @@ WORKDIR /opt/src/app
 # Install app dependencies
 COPY package*.json ./
 
-RUN npm install
+RUN npm install 20.5.0
 # Copy app source code
 COPY . .
 
